@@ -1,5 +1,9 @@
 @import-normalize;
 
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
