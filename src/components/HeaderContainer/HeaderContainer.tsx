@@ -10,7 +10,7 @@ const HeaderContainer: React.FC = () => {
                 Food app
             </span>
             <h1 className={ s.title }>
-                Why stay hungry when<br/>you can order form Bella Onojie
+                Why stay hungry when<br/> you can order form Bella Onojie
             </h1>
             <h4 className={ s.sub_title }>
                 Download the bella onoje’s food app now on
