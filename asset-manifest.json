@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/FoodDelivery/static/css/main.c58f9e0c.css",
+    "main.js": "/FoodDelivery/static/js/main.d18a1295.js",
+    "static/media/Phone__get_started.svg": "/FoodDelivery/static/media/Phone__get_started.d24dc23d8f4b50a50daaabc35f2a3468.svg",
+    "static/media/Header__container_bg.png": "/FoodDelivery/static/media/Header__container_bg.7e1ddaca31926031587f.png",
+    "static/media/Footer__container_bg.png": "/FoodDelivery/static/media/Footer__container_bg.629501788a4fb87739cd.png",
+    "static/media/Phone__checkout.svg": "/FoodDelivery/static/media/Phone__checkout.e25a69688413b488e595173ac1b48054.svg",
+    "static/media/Phone__create_acc.svg": "/FoodDelivery/static/media/Phone__create_acc.d0ff0c06296944d52dabf989ffa19490.svg",
+    "static/media/FoodDelivery_logo.svg": "/FoodDelivery/static/media/FoodDelivery_logo.bbd37d3b821a3c322eeac38b2f207d07.svg",
+    "static/media/Phone__explore_varietes.svg": "/FoodDelivery/static/media/Phone__explore_varietes.9cb2d5f0c91fe07284579fa31e5cb5d7.svg",
+    "index.html": "/FoodDelivery/index.html",
+    "main.c58f9e0c.css.map": "/FoodDelivery/static/css/main.c58f9e0c.css.map",
+    "main.d18a1295.js.map": "/FoodDelivery/static/js/main.d18a1295.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c58f9e0c.css",
+    "static/js/main.d18a1295.js"
+  ]
+}
