@@ -3,6 +3,7 @@ import Header from '../Header/Header'
 import HeaderContainer from '../HeaderContainer/HeaderContainer'
 import Tutorial from '../Tutorial/Tutorial'
 import FooterContainer from '../FooterContainer/FooterContainer'
+import Footer from '../Footer/Footer'
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <HeaderContainer/>
             <Tutorial/>
             <FooterContainer/>
+            <Footer/>
         </div>
     )
 }
