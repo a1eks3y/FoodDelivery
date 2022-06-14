@@ -1,0 +1,72 @@
+.wrapper
+  margin-top: 20px
+  width: 100%
+  background-color: #252B42
+  height: 564px
+  display: flex
+  justify-content: center
+  align-items: center
+  color: white
+  @media (min-width: 755px)
+    height: calc((100vw - 17px) / 1440 * 509)
+    background:
+      image: url("../../images/Footer__container_bg.png")
+      repeat: no-repeat
+      size: cover
+
+.content_wrapper
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+  text-align: center
+  flex-direction: column
+  width: min(840px, 100%)
+  height: 254px
+  @media (max-width: 510px)
+    gap: 20px
+    height: auto
+
+.title
+  font:
+    weight: 700
+    size: 40px
+  line-height: 57px
+  letter-spacing: .2px
+
+.sub_title
+  font:
+    weight: 500
+    size: 24px
+  line-height: 38px
+  letter-spacing: .2px
+
+.btn_wrapper
+  width: 331px
+  height: 69px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  @media (max-width: 356px)
+    min-height: 134px
+    width: 100%
+    flex-direction: column
+
+.btn
+  cursor: pointer
+  color: white
+  letter-spacing: .2px
+  line-height: 28px
+  border-radius: 10px
+  font:
+    weight: 700
+    size: 16px
+
+.red_btn
+  padding: 18px 31px
+  background: #FA4A0C
+  border: none
+
+.white_btn
+  background: transparent
+  padding: 16px 45px
+  border: 1px solid white

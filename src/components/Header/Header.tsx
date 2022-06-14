@@ -7,14 +7,14 @@ const Header: React.FC = () => {
     const onLinkClick = ( e: React.MouseEvent<HTMLAnchorElement, MouseEvent> ) => {
         e.preventDefault()
     }
-    const [isOpened, setIsOpened] = useState<boolean>(window.innerWidth > 450)
+    const [isOpened, setIsOpened] = useState<boolean>(window.innerWidth > 460)
     useEffect(() => {
         const onResize = () => {
-            setIsOpened(window.innerWidth > 450)
+            setIsOpened(window.innerWidth > 460)
         }
         window.addEventListener('resize', onResize)
         const closeNav = () => {
-            if ( window.innerWidth <= 450 && isOpened )
+            if ( window.innerWidth <= 460 && isOpened )
                 setIsOpened(false)
         }
         document.addEventListener('mousedown', closeNav)
